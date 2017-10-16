@@ -1,0 +1,10 @@
+#+OPTIONS: num:nil toc:nil
+#+REVEAL_TRANS: none
+#+REVEAL_THEME: black
+#+Title: Freie Daten(spuren) aus dem All
+#+Author: wose
+#+Email: wose (at) zuendmasse.de
+
+* /me
+
+foo
