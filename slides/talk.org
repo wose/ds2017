@@ -2,12 +2,13 @@
 #+OPTIONS: reveal_width:1366
 #+OPTIONS: reveal_height:768
 #+OPTIONS: reveal_title_slide:nil
-#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+# #+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
 #+REVEAL_MARGIN: 0.1
 #+REVEAL_MIN_SCALE: 0.5
 #+REVEAL_MAX_SCALE: 2.5
 #+REVEAL_TRANS: none
 #+REVEAL_THEME: league
+#+REVEAL_EXTRA_CSS: custom.css
 #+Title: Freie Daten(spuren) aus dem All
 #+Author: wose
 #+Email: wose (at) zuendmasse.de
@@ -30,13 +31,13 @@ beruhende) Angaben, formulierbare Befunde
 #+ATTR_REVEAL: :frag roll-in
 ... aus dem All
 
-* !
+* 
 :PROPERTIES:
 :reveal_background: ./images/stargazer.jpg
 :reveal_background_trans: none
 :END:
 
-** Sonnenfinsternis
+** 
 :PROPERTIES:
 :reveal_background: ./images/se.jpg
 :reveal_background_trans: none
@@ -47,30 +48,63 @@ beruhende) Angaben, formulierbare Befunde
 
 * Hilfsmittel/Messmittel/Sensoren
 
-** Teleskope (kleine)
+** 
 :PROPERTIES:
 :reveal_background: ./images/small.jpg
 :reveal_background_trans: none
 :END:
 
+#+ATTR_REVEAL: :frag roll-in
+[[./images/kepler-17b.png]]
+
+# http://www.rosecityastronomers.net/newsletter-content/2016/10/30/high-school-students-capture-exoplanet-transit-with-ken-hose
 
 # [[./images/newtonian.jpg]]
 # By Rawastrodata [[http://creativecommons.org/licenses/by/3.0][CC BY 3.0]]
 
-** Teleskope (große)
-[[./images/william.jpg]]
+** 
+:PROPERTIES:
+:reveal_background: ./images/william.jpg
+:reveal_background_trans: none
+:END:
 
-By H. Raab (User:Vesta) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4744255
+# By H. Raab (User:Vesta) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4744255
 
-** Teleskope (sehr große)
-[[./images/vlt.jpg]]
+** 
+:PROPERTIES:
+:reveal_background: ./images/vlt.jpg
+:reveal_background_trans: none
+:END:
 
-By G. Hüdepohl/ESO - http://www.eso.org/public/images/gerd_huedepohl_2/, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=10980623
+# By G. Hüdepohl/ESO - http://www.eso.org/public/images/gerd_huedepohl_2/, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=10980623
 
-** Teleskope (extrem große)
-[[./images/eelt.jpg]]
+** 
+:PROPERTIES:
+:reveal_background: ./images/eelt.jpg
+:reveal_background_trans: none
+:END:
 
-By [[http://www.eso.org/public/images/eso1225a/][ESO/L. Calçada]] [[https://commons.wikimedia.org/w/index.php?curid=22621134][CC BY 4.0]]
+# By [[http://www.eso.org/public/images/eso1225a/][ESO/L. Calçada]] [[https://commons.wikimedia.org/w/index.php?curid=22621134][CC BY 4.0]]
+
+** 
+:PROPERTIES:
+:reveal_background: ./images/arecibo.jpg
+:reveal_background_trans: none
+:END:
+
+** 
+:PROPERTIES:
+:reveal_background: ./images/neutrino-detector.jpg
+:reveal_background_trans: none
+:END:
+
+# http://www-sk.icrr.u-tokyo.ac.jp/sk/gallery/index-e.html
+
+** 
+:PROPERTIES:
+:reveal_background: ./images/ligo.jpg
+:reveal_background_trans: none
+:END:
 
 
 * Ok cool... aber das Wichtigste fehlt!
@@ -89,6 +123,53 @@ By [[http://www.eso.org/public/images/eso1225a/][ESO/L. Calçada]] [[https://com
 
 # ESA/ATG medialab
 
+** Sentinel 1 a/b
+:PROPERTIES:
+:reveal_data_state: dimbg
+:reveal_background: ./images/Sentinel-1.jpg
+:reveal_background_trans: none
+:END:
+
+- sonnensynchroner Orbit (SSO)
+- 6 Tage
+- foo
+
+
+# #+REVEAL_HTML:  <video autoplay loop><source data-autoplay data-src="./videos/1403_025_AR_EN.mp4" type="video/mp4" /></video>
+
+** Larsen-Schelfeis
+
+[[./images/larsen_interferogram_s.jpg]]
+
+# contains modified Copernicus Sentinel data (2017), processed by A. Hogg/CPOM/Priestly Centre, CC BY-SA 3.0 IGO
+# http://www.esa.int/spaceinimages/Images/2017/04/Larsen-C_crack_interferogram
+
+** Larsen-Schelfeis
+
+[[./images/larsenc_s.gif]]
+
+# contains modified Copernicus Sentinel data (2017), processed by ESA, CC BY-SA 3.0 IGO 
+
+** Mocoa Erdrutsch
+
+[[./images/mocoa_s.jpg]]
+
+# contains modified Copernicus Sentinel data (2017), processed by I. Parcharidis, Harokopio University of Athens 
+
+** Myanmar
+
+[[./images/myanmar_s.jpg]]
+
+# contains modified Copernicus Sentinel data (2015), processed by ESA, CC BY-SA 3.0 IGO 
+# http://www.esa.int/spaceinimages/Images/2017/10/Sagaing_Division_Myanmar
+
+** California's Highway 1
+
+[[./images/highway1_s.jpg]]
+
+# contains modified Copernicus Sentinel data (2015–17), processed by Norut 
+# http://www.esa.int/spaceinimages/Images/2017/06/Landslide_on_the_radar
+
 * Sentinel 2 a/b
 :PROPERTIES:
 :reveal_background: ./images/Sentinel-2.jpg
@@ -96,6 +177,73 @@ By [[http://www.eso.org/public/images/eso1225a/][ESO/L. Calçada]] [[https://com
 :END:
 
 # ESA/ATG medialab
+
+** Sentinel 2 a/b
+:PROPERTIES:
+:reveal_data_state: dimbg
+:reveal_background: ./images/Sentinel-2.jpg
+:reveal_background_trans: none
+:END:
+
+# ESA/ATG medialab
+
+- dat 1
+- dat 2
+- dat 3
+- dat 4
+- dat 5
+
+** Kalamos, Griechenland
+
+[[./images/kalamos_s.gif]]
+
+# contains modified Copernicus Sentinel data (2017), processed by ESA, CC BY-SA 3.0 IGO
+# http://www.esa.int/spaceinimages/Images/2017/08/Kalamos_fires
+
+** Lake MacKay, Australien
+:PROPERTIES:
+:reveal_background: ./images/mackay.jpg
+:reveal_background_trans: none
+:END:
+
+# contains modified Copernicus Sentinel data (2017), processed by ESA , CC BY-SA 3.0 IGO 
+# http://www.esa.int/spaceinimages/Images/2017/04/Lake_MacKay_Australia
+
+** Oetztal Alpen
+:PROPERTIES:
+:reveal_background: ./images/oetztal.jpg
+:reveal_background_trans: none
+:END:
+
+# http://www.esa.int/spaceinimages/Images/2017/02/Oetztal_Alps
+# contains modified Copernicus Sentinel data (2016), processed by ESA , CC BY-SA 3.0 IGO 
+
+** Barentssee
+:PROPERTIES:
+:reveal_background: ./images/barentssee.jpg
+:reveal_background_trans: none
+:END:
+
+# http://www.esa.int/spaceinimages/Images/2016/08/Barents_bloom
+# Contains modified Copernicus Sentinel data (2016), processed by ESA, CC BY-SA 3.0 IGO
+
+** Saudi-Arabien
+:PROPERTIES:
+:reveal_background: ./images/saudi1.jpg
+:reveal_background_trans: none
+:END:
+
+# Copernicus Sentinel data (2015)/ESA, CC BY-SA 3.0 IGO
+# http://www.esa.int/spaceinimages/Images/2015/07/Desert_fields
+
+** Saudi-Arabien
+:PROPERTIES:
+:reveal_background: ./images/saudi2.jpg
+:reveal_background_trans: none
+:END:
+
+# Copernicus Sentinel data (2015)/ESA, CC BY-SA 3.0 IGO
+# http://www.esa.int/spaceinimages/Images/2015/07/Agriculture_in_Saudi_Arabia
 
 * Sentinel 3 a/b
 :PROPERTIES:
@@ -105,24 +253,140 @@ By [[http://www.eso.org/public/images/eso1225a/][ESO/L. Calçada]] [[https://com
 
 # ESA/ATG medialab
 
+** Sentinel 3 a/b
+:PROPERTIES:
+:reveal_data_state: dimbg
+:reveal_background: ./images/Sentinel-3.jpg
+:reveal_background_trans: none
+:END:
+
+# ESA/ATG medialab
+
+** Ophelia
+
+[[./images/ophelia_s.jpg]]
+
+# http://www.esa.int/spaceinimages/Images/2017/10/Hurricane_Ophelia_s_temperature
+# contains modified Copernicus Sentinel data (2017), processed by ESA, CC BY-SA 3.0 IGO
+
+** Globale Temperatur
+
+[[./images/globtemp_s.gif]]
+
+# contains modified Copernicus Sentinel data (2016), processed by UK National Centre for Earth Observation/University of Leicester 
+# http://www.esa.int/spaceinimages/Images/2017/07/Sentinel-3A_senses_Earth_s_heat
+
+** Meeresspiegel
+
+[[./images/sealevel_s.jpg]]
+
+# http://www.esa.int/spaceinimages/Images/2016/05/Sea-level_variations_from_Sentinel-3A
+# contains modified Copernicus Sentinel data (2016), processed by ESA and CNES, CC BY-SA 3.0 IGO
+
 * Sentinel-5p
 :PROPERTIES:
-    :REVEAL_EXTRA_ATTR: data-background-video="./videos/1707_023_AR_EN.mp4"; data-background-video-loop="loop"
+:reveal_background: ./images/Sentinel-5p.jpg
+:reveal_background_trans: none
 :END:
-ESA/ATG medialab
+
+# ESA/ATG medialab 
+
+# :PROPERTIES:
+#     :REVEAL_EXTRA_ATTR: data-background-video="./videos/1707_023_AR_EN.mp4"; data-background-video-loop="loop"
+# :END:
+# ESA/ATG medialab
+
+** Sentinel-5p
+:PROPERTIES:
+:reveal_data_state: dimbg
+:reveal_background: ./images/Sentinel-5p.jpg
+:reveal_background_trans: none
+:END:
+
+# ESA/ATG medialab 
+
+** Simulierte Tropomi Daten
+
+[[./images/tropomi_s.png]]
+
+# http://www.esa.int/spaceinimages/Images/2016/05/Simulating_Tropomi_data_for_improved_air-quality_forecasts
+# KNMI
 
 * Sentinel 4
+:PROPERTIES:
+:reveal_background: ./images/Sentinel-4.jpg
+:reveal_background_trans: none
+:END:
+
+# #+REVEAL_HTML:  <video autoplay loop><source data-autoplay data-src="./videos/1707_023_AR_EN.mp4" type="video/mp4" /></video>
+
+** Sentinel 4
+:PROPERTIES:
+:reveal_data_state: dimbg
+:reveal_background: ./images/Sentinel-4.jpg
+:reveal_background_trans: none
+:END:
+
 
 * Sentinel 5
+:PROPERTIES:
+:reveal_background: ./images/Sentinel-5.jpg
+:reveal_background_trans: none
+:END:
+
+# ESA/P. Carril
+
+** Sentinel 5
+:PROPERTIES:
+:reveal_data_state: dimbg
+:reveal_background: ./images/Sentinel-5.jpg
+:reveal_background_trans: none
+:END:
+
+# ESA/P. Carril
+
 
 * Sentinel 6
+:PROPERTIES:
+:reveal_background: ./images/Sentinel-6.jpg
+:reveal_background_trans: none
+:END:
+
+** Sentinel 6
+:PROPERTIES:
+:reveal_data_state: dimbg
+:reveal_background: ./images/Sentinel-6.jpg
+:reveal_background_trans: none
+:END:
+
+* Demo
 
 * Demo 1 - NDVI
+
+[[./images/ndvi_s.jpg]]
+
+http://apps.sentinel-hub.com/eo-browser/
+
+# https://earthobservatory.nasa.gov/Features/MeasuringVegetation/measuring_vegetation_2.php 
 
 * Demo 2
 
 * Links
 
+- http://www.esa.int/spaceinimages/Images
+- http://www.esa.int/spaceinvideos/Videos
+- http://www.esa.int/spaceinvideos/Sets/Earth_from_Space_programme
+- http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus
 
+- http://apps.sentinel-hub.com/eo-browser/
 
-# https://scihub.copernicus.eu/
+- https://scihub.copernicus.eu/
+- https://sentinel.esa.int/web/sentinel/toolboxes
+- https://www.futurelearn.com/courses/optical-earth-observation
+- http://www.learn-eo.org
+
+* Danke
+
+Fragen? Ideen?
+
+Slides: https://github.com/wose/ds2017
