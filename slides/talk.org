@@ -73,12 +73,55 @@ By G. Hüdepohl/ESO - http://www.eso.org/public/images/gerd_huedepohl_2/, CC BY 
 By [[http://www.eso.org/public/images/eso1225a/][ESO/L. Calçada]] [[https://commons.wikimedia.org/w/index.php?curid=22621134][CC BY 4.0]]
 
 
-** Sentinel-5p
+* Ok cool... aber das Wichtigste fehlt!
+
+* ESA Copernicus Programm
+:PROPERTIES:
+:reveal_background: ./images/The_Sentinel_family.jpg
+:reveal_background_trans: none
+:END:
+
+* Sentinel 1 a/b
+:PROPERTIES:
+:reveal_background: ./images/Sentinel-1.jpg
+:reveal_background_trans: none
+:END:
+
+# ESA/ATG medialab
+
+* Sentinel 2 a/b
+:PROPERTIES:
+:reveal_background: ./images/Sentinel-2.jpg
+:reveal_background_trans: none
+:END:
+
+# ESA/ATG medialab
+
+* Sentinel 3 a/b
+:PROPERTIES:
+:reveal_background: ./images/Sentinel-3.jpg
+:reveal_background_trans: none
+:END:
+
+# ESA/ATG medialab
+
+* Sentinel-5p
 :PROPERTIES:
     :REVEAL_EXTRA_ATTR: data-background-video="./videos/1707_023_AR_EN.mp4"; data-background-video-loop="loop"
 :END:
-
 ESA/ATG medialab
+
+* Sentinel 4
+
+* Sentinel 5
+
+* Sentinel 6
+
+* Demo 1 - NDVI
+
+* Demo 2
+
+* Links
 
 
 
