@@ -1,10 +1,85 @@
 #+OPTIONS: num:nil toc:nil
+#+OPTIONS: reveal_width:1366
+#+OPTIONS: reveal_height:768
+#+OPTIONS: reveal_title_slide:nil
+#+REVEAL_ROOT: http://cdn.jsdelivr.net/reveal.js/3.0.0/
+#+REVEAL_MARGIN: 0.1
+#+REVEAL_MIN_SCALE: 0.5
+#+REVEAL_MAX_SCALE: 2.5
 #+REVEAL_TRANS: none
-#+REVEAL_THEME: black
+#+REVEAL_THEME: league
 #+Title: Freie Daten(spuren) aus dem All
 #+Author: wose
 #+Email: wose (at) zuendmasse.de
 
-* /me
+* Freie Daten(spuren) aus dem All
+:PROPERTIES:
+:reveal_background: ./images/sen2_2017-08-08_title.png
+:reveal_background_trans: none
+:END:
 
-foo
+wose
+
+2017-10-21
+
+* Daten
+(durch Beobachtungen, Messungen, statistische Erhebungen u. a. gewonnene)
+[Zahlen]werte, (auf Beobachtungen, Messungen, statistischen Erhebungen u. a.
+beruhende) Angaben, formulierbare Befunde
+
+#+ATTR_REVEAL: :frag roll-in
+... aus dem All
+
+* !
+:PROPERTIES:
+:reveal_background: ./images/stargazer.jpg
+:reveal_background_trans: none
+:END:
+
+** Sonnenfinsternis
+:PROPERTIES:
+:reveal_background: ./images/se.jpg
+:reveal_background_trans: none
+:END:
+
+#+ATTR_REVEAL: :frag roll-in
+[[./images/t.jpg]]
+
+* Hilfsmittel/Messmittel/Sensoren
+
+** Teleskope (kleine)
+:PROPERTIES:
+:reveal_background: ./images/small.jpg
+:reveal_background_trans: none
+:END:
+
+
+# [[./images/newtonian.jpg]]
+# By Rawastrodata [[http://creativecommons.org/licenses/by/3.0][CC BY 3.0]]
+
+** Teleskope (große)
+[[./images/william.jpg]]
+
+By H. Raab (User:Vesta) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=4744255
+
+** Teleskope (sehr große)
+[[./images/vlt.jpg]]
+
+By G. Hüdepohl/ESO - http://www.eso.org/public/images/gerd_huedepohl_2/, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=10980623
+
+** Teleskope (extrem große)
+[[./images/eelt.jpg]]
+
+By [[http://www.eso.org/public/images/eso1225a/][ESO/L. Calçada]] [[https://commons.wikimedia.org/w/index.php?curid=22621134][CC BY 4.0]]
+
+
+** Sentinel-5p
+:PROPERTIES:
+    :REVEAL_EXTRA_ATTR: data-background-video="./videos/1707_023_AR_EN.mp4"; data-background-video-loop="loop"
+:END:
+
+ESA/ATG medialab
+
+
+
+# https://scihub.copernicus.eu/

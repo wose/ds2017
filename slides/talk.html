@@ -7,9 +7,9 @@
 <style type="text/css">
 .underline { text-decoration: underline; }
 </style>
-<link rel="stylesheet" href="./reveal.js/css/reveal.css"/>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/reveal.css"/>
 
-<link rel="stylesheet" href="./reveal.js/css/theme/black.css" id="theme"/>
+<link rel="stylesheet" href="http://cdn.jsdelivr.net/reveal.js/3.0.0/css/theme/league.css" id="theme"/>
 
 
 <!-- If the query includes 'print-pdf', include the PDF print sheet -->
@@ -18,7 +18,7 @@
         var link = document.createElement( 'link' );
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = './reveal.js/css/print/pdf.css';
+        link.href = 'http://cdn.jsdelivr.net/reveal.js/3.0.0/css/print/pdf.css';
         document.getElementsByTagName( 'head' )[0].appendChild( link );
     }
 </script>
@@ -26,21 +26,109 @@
 <body>
 <div class="reveal">
 <div class="slides">
-<section id="sec-title-slide"><h1 class="title">Freie Daten(spuren) aus dem All</h1><h2 class="author">wose</h2><p class="date">Created: 2017-10-16 Mon 20:17</p>
-</section>
 
 <section>
-<section id="slide-orga547758">
-<h2 id="orga547758">/me</h2>
+<section id="slide-org946a3ab" data-background="./images/sen2_2017-08-08_title.png" data-background-transition="none">
+<h2 id="org946a3ab">Freie Daten(spuren) aus dem All</h2>
 <p>
-foo
+wose
+</p>
+
+<p>
+2017-10-21
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgaa86907">
+<h2 id="orgaa86907">Daten</h2>
+<p>
+(durch Beobachtungen, Messungen, statistische Erhebungen u. a. gewonnene)
+[Zahlen]werte, (auf Beobachtungen, Messungen, statistischen Erhebungen u. a.
+beruhende) Angaben, formulierbare Befunde
+</p>
+
+<p class="fragment roll-in">
+&#x2026; aus dem All
+</p>
+
+</section>
+</section>
+<section>
+<section id="slide-orgd492f02" data-background="./images/stargazer.jpg" data-background-transition="none">
+<h2 id="orgd492f02">!</h2>
+</section>
+<section id="slide-org459ff40" data-background="./images/se.jpg" data-background-transition="none">
+<h3 id="org459ff40">Sonnenfinsternis</h3>
+
+<div class="figure">
+<p><img src="./images/t.jpg" alt="t.jpg" class="fragment roll-in" />
+</p>
+</div>
+
+</section>
+</section>
+<section>
+<section id="slide-org9357688">
+<h2 id="org9357688">Hilfsmittel/Messmittel/Sensoren</h2>
+<div class="outline-text-2" id="text-org9357688">
+</div></section>
+<section id="slide-org9cdd468" data-background="./images/small.jpg" data-background-transition="none">
+<h3 id="org9cdd468">Teleskope (kleine)</h3>
+
+</section>
+<section id="slide-orgf5a59b8">
+<h3 id="orgf5a59b8">Teleskope (große)</h3>
+
+<div class="figure">
+<p><img src="./images/william.jpg" alt="william.jpg" />
+</p>
+</div>
+
+<p>
+By H. Raab (User:Vesta) - Own work, CC BY-SA 3.0, <a href="https://commons.wikimedia.org/w/index.php?curid=4744255">https://commons.wikimedia.org/w/index.php?curid=4744255</a>
+</p>
+
+</section>
+<section id="slide-org7410e01">
+<h3 id="org7410e01">Teleskope (sehr große)</h3>
+
+<div class="figure">
+<p><img src="./images/vlt.jpg" alt="vlt.jpg" />
+</p>
+</div>
+
+<p>
+By G. Hüdepohl/ESO - <a href="http://www.eso.org/public/images/gerd_huedepohl_2/">http://www.eso.org/public/images/gerd_huedepohl_2/</a>, CC BY 4.0, <a href="https://commons.wikimedia.org/w/index.php?curid=10980623">https://commons.wikimedia.org/w/index.php?curid=10980623</a>
+</p>
+
+</section>
+<section id="slide-org2343018">
+<h3 id="org2343018">Teleskope (extrem große)</h3>
+
+<div class="figure">
+<p><img src="./images/eelt.jpg" alt="eelt.jpg" />
+</p>
+</div>
+
+<p>
+By <a href="http://www.eso.org/public/images/eso1225a/">ESO/L. Calçada</a> <a href="https://commons.wikimedia.org/w/index.php?curid=22621134">CC BY 4.0</a>
+</p>
+
+
+</section>
+<section id="slide-orgd711436" data-background-video="./videos/1707_023_AR_EN.mp4"; data-background-video-loop="loop">
+<h3 id="orgd711436">Sentinel-5p</h3>
+<p>
+ESA/ATG medialab
 </p>
 </section>
 </section>
 </div>
 </div>
-<script src="./reveal.js/lib/js/head.min.js"></script>
-<script src="./reveal.js/js/reveal.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/head.min.js"></script>
+<script src="http://cdn.jsdelivr.net/reveal.js/3.0.0/js/reveal.js"></script>
 
 <script>
 // Full list of configuration options available here:
@@ -55,6 +143,11 @@ slideNumber: 'c',
 rollingLinks: false,
 keyboard: true,
 overview: true,
+width: 1366,
+height: 768,
+margin: 0.10,
+minScale: 0.50,
+maxScale: 2.50,
 
 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
 transition: Reveal.getQueryHash().transition || 'none', // default/cube/page/concave/zoom/linear/fade/none
@@ -67,11 +160,11 @@ multiplex: {
 
 // Optional libraries used to extend on reveal.js
 dependencies: [
- { src: './reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
- { src: './reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: './reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
- { src: './reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
- { src: './reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+ { src: 'http://cdn.jsdelivr.net/reveal.js/3.0.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }]
 });
 </script>
 </body>
