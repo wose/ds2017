@@ -130,10 +130,29 @@ beruhende) Angaben, formulierbare Befunde
 :reveal_background_trans: none
 :END:
 
-- sonnensynchroner Orbit (SSO)
-- 6 Tage
-- foo
+- sonnensynchroner Orbit (SSO) 693 km
+- 6d
+- Synthetic Aperture Radar (SAR)
+  - 5.405 GHz
+  - Auflösung
+    - 5x20 m (Interferometric wide-swath)
+    - 5x5 m (Wave-mode images)
+    - 5x5 m (Strip map mode)
+    - 20x40 m (Extra wide-swath mode)
 
+** Sentinel 1 a/b
+:PROPERTIES:
+:reveal_data_state: dimbg
+:reveal_background: ./images/Sentinel-1.jpg
+:reveal_background_trans: none
+:END:
+
+- Eisbeobachtung
+- Landverformung
+- Wellen und Strömungen
+- Erdbeben
+- Flutkarten
+- Tankerunglück/Ölteppich
 
 # #+REVEAL_HTML:  <video autoplay loop><source data-autoplay data-src="./videos/1403_025_AR_EN.mp4" type="video/mp4" /></video>
 
@@ -187,11 +206,31 @@ beruhende) Angaben, formulierbare Befunde
 
 # ESA/ATG medialab
 
-- dat 1
-- dat 2
-- dat 3
-- dat 4
-- dat 5
+- sonnensynchroner Orbit (SSO) 786 km
+- 7 Jahre
+- Multispectral Imager (MSI)
+  - 5d
+  - 13 Bänder (443 - 2190 nm)
+  - Scanbreite 290 km
+  - Auflösung
+    - 10 m (4 sichtbare und NIR Bänder)
+    - 20 m (6 rote und kurzwellen IR)
+    - 60 m (3 Korrekturbänder)
+
+** Sentinel 2 a/b
+:PROPERTIES:
+:reveal_data_state: dimbg
+:reveal_background: ./images/Sentinel-2.jpg
+:reveal_background_trans: none
+:END:
+
+# ESA/ATG medialab
+
+- Landwirtschaftsbeobachtung
+- Waldentwicklung
+- Chlorophyllgehalt in Blättern
+- Wassergehalt in Blättern
+- Katastrophenschutz/hilfe
 
 ** Kalamos, Griechenland
 
@@ -262,6 +301,33 @@ beruhende) Angaben, formulierbare Befunde
 
 # ESA/ATG medialab
 
+- sonnensynchroner Orbit (SSO) 815 km
+- 7 (12) Jahre
+- Ocean and Land Colour Instrument (OLCI)
+  - 2d
+  - 21 Bänder (400 - 1020 nm)
+  - Scanbreite 1270 km
+- Sea and Land Surface Temperature Radiometer (SLSTR)
+  - 1d
+  - 9 Bänder (550 - 12000 nm)
+  - Scanbreite  1420 km / 750 km
+- Synthetic Aperture Radar Altimeter (SRAL)
+  - 27d
+
+** Sentinel 3 a/b
+:PROPERTIES:
+:reveal_data_state: dimbg
+:reveal_background: ./images/Sentinel-3.jpg
+:reveal_background_trans: none
+:END:
+
+# ESA/ATG medialab
+
+- Meeresspiegelbeobachtung
+- Meeresoberflächentemperatur
+- Wasserqualität
+- Eisdicke
+
 ** Ophelia
 
 [[./images/ophelia_s.jpg]]
@@ -305,6 +371,37 @@ beruhende) Angaben, formulierbare Befunde
 
 # ESA/ATG medialab 
 
+- sonnensynchroner Orbit (SSO) 824 km
+- 7 (10) Jahre
+- 1d
+- Tropospheric Monitoring Instrument (Tropomi)
+  - Scanbreite 2600 km
+  - 270 - 495 nm
+  - 675 - 775 nm
+  - 2305 - 2385 nm
+  - Auflösung
+    - 7x3.5 km
+
+** Sentinel-5p
+:PROPERTIES:
+:reveal_data_state: dimbg
+:reveal_background: ./images/Sentinel-5p.jpg
+:reveal_background_trans: none
+:END:
+
+# ESA/ATG medialab 
+
+- Luftqualiät
+- Konzentration von Spurengasen
+  - Stickstoffdioxid
+  - Ozon
+  - Methan
+  - Schwefeldioxid
+  - Kohlenmonoxid
+  - Formaldehyde
+- Wolkenbildung/bewegung
+- Klimaforschung
+
 ** Simulierte Tropomi Daten
 
 [[./images/tropomi_s.png]]
@@ -327,6 +424,14 @@ beruhende) Angaben, formulierbare Befunde
 :reveal_background_trans: none
 :END:
 
+- geostationärer Orbit (GEO)
+- 1h
+- Spektrometer (UVN)
+  - 305 - 400 nm
+  - 400 - 500 nm
+  - 750 - 775 nm
+  - Auflösung
+    - 8 km
 
 * Sentinel 5
 :PROPERTIES:
@@ -345,6 +450,17 @@ beruhende) Angaben, formulierbare Befunde
 
 # ESA/P. Carril
 
+- sonnensynchroner Orbit (SSO) 830 km
+- 3x7 Jahre
+- 29d
+- Spektrometer
+  - 270 - 370 nm
+  - 370 - 500 nm
+  - 685 - 773 nm
+  - 1590 - 1675 nm
+  - 2305 - 2385 nm
+  - Auflösung
+    - 7 km
 
 * Sentinel 6
 :PROPERTIES:
@@ -359,10 +475,20 @@ beruhende) Angaben, formulierbare Befunde
 :reveal_background_trans: none
 :END:
 
+- kein sonnensynchroner Orbit (LEO) 1336 km
+- 5.5 (2) Jahre
+- Poseidon-4 (SAR)
+- AMR-C Climate-quality microwave radiometer
+- GNSS-POD GPS/Galileo Empfänger
+- DORIS
+- Laser Retroreflector Array
+- GNSS-RO
+
 * Demo
 
 * Demo 1 - NDVI
 
+#+ATTR_REVEAL: :frag roll-in
 [[./images/ndvi_s.jpg]]
 
 http://apps.sentinel-hub.com/eo-browser/
@@ -380,6 +506,8 @@ http://apps.sentinel-hub.com/eo-browser/
 
 - http://apps.sentinel-hub.com/eo-browser/
 
+- http://seom.esa.int
+- http://eoscience.esa.int/landtraining2017/
 - https://scihub.copernicus.eu/
 - https://sentinel.esa.int/web/sentinel/toolboxes
 - https://www.futurelearn.com/courses/optical-earth-observation
