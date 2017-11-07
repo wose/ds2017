@@ -10,6 +10,11 @@ Material for a talk at the
 > Demo zeigt, wie jeder die frei zugänglichen Daten in eindrucksvolle Bilder
 > unseres Planeten verwandeln kann.
 
+## Video
+You can watch the recorded talk
+[here](https://media.ccc.de/v/DS2017-8680-freie_daten_spuren_aus_dem_all).
+
+
 ## Post Talk Notes
 
 The slides included some links to further information regarding the Copernicus
